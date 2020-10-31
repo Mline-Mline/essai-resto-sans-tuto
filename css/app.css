@@ -1,0 +1,32 @@
+a{
+    color: black;
+    color: red;
+    color: green;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td{
+    border: 0;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 8px 5px;
+}
+
+tr.title td{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+tr.title:not(:first-child) td{
+    padding-top: 22px;
+}
